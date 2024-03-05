@@ -47,7 +47,7 @@ function App(){
        amount={convertedAmount}
        selectCurrency={to}
        currencyOptions={options}
-       onAmountChange={(curr)=>setConvertAmount(amount)}
+       onAmountChange={(curr)=>setConvertAmount(curr)}
        onCurrencyChange={(curr)=>setTo(curr)}
        
       />
