@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
   
 function useCurrency(currency){
-    currency='USD';
+ 
     let url = `https://v6.exchangerate-api.com/v6/92efd3510a998d03789e9049/latest/${currency}`;
     const[data,setData] = useState({});
     useEffect(()=>{
